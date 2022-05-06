@@ -1,0 +1,61 @@
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 929px;
+}
+
+.string{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20pt;
+  position: relative;
+}
+
+.string:hover{
+  cursor: pointer;
+}
+
+.coordinates{
+  position: relative;
+}
+
+.cords{
+  border-left: 1px dashed black;
+  border-bottom: 1px dashed black;
+  border-spacing: 0px;
+}
+
+ td{
+  border: 1px dashed black;
+  width: 80px;
+  height: 80px;
+  border-left: none;
+  border-bottom: none;
+}
+
+.x{
+  border-top: 2px solid black;
+}
+
+.y{
+  border-right: 2px solid black;
+}
+
+.xy{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  font-family: sans-serif;
+  font-size: 24pt;
+}
+
+.redPoint{
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  position: absolute;
+  bottom: 162px;
+  left: -4.55px;
+}
